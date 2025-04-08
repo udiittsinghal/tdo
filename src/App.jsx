@@ -56,7 +56,7 @@ export default function Home() {
               <div key={item} className="bg-white rounded-2xl shadow p-4">
                 <div className="h-40 bg-gray-200 rounded-xl mb-4 flex items-center justify-center">
                 <img
-                  src="/realestate.jpg"
+                  src="public/realestate.jpg"
                   alt="Project Image"
                   className="object-cover w-full h-full rounded-xl"
                 />
@@ -105,7 +105,7 @@ export default function Home() {
             {[1, 2, 3, 4].map((brand) => (
               <div key={brand} className="w-32 h-20 bg-transparent flex items-center justify-center overflow-hidden">
               <img
-                src="/brand1.png"
+                src="public/brand1.png"
                 alt="Project Image"
                 className="object-contain w-full h-full"
               />
