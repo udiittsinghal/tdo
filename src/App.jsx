@@ -16,7 +16,7 @@ export default function Home() {
         >
          <div className="flex justify-center gap-2">
          <img
-  src="/tdo/public/The day off logo-03.png"
+  src="/tdo/The day off logo-03.png"
   alt="Project Image"
   className="w-128 h-80 object-contain"
 />  
@@ -56,7 +56,7 @@ export default function Home() {
               <div key={item} className="bg-white rounded-2xl shadow p-4">
                 <div className="h-40 bg-gray-200 rounded-xl mb-4 flex items-center justify-center">
                 <img
-                  src="public/realestate.jpg"
+                  src="/tdo/realestate.jpg"
                   alt="Project Image"
                   className="object-cover w-full h-full rounded-xl"
                 />
@@ -105,7 +105,7 @@ export default function Home() {
             {[1, 2, 3, 4].map((brand) => (
               <div key={brand} className="w-32 h-20 bg-transparent flex items-center justify-center overflow-hidden">
               <img
-                src="public/brand1.png"
+                src="/tdo/brand1.png"
                 alt="Project Image"
                 className="object-contain w-full h-full"
               />
