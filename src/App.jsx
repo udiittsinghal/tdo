@@ -16,7 +16,7 @@ export default function Home() {
         >
          <div className="flex justify-center gap-2">
          <img
-  src="/tdo-logo1.png"
+  src="/tdo/tdo-logo1.png"
   alt="Project Image"
   className="w-128 h-80 object-contain"
 />  
