@@ -125,7 +125,19 @@ export default function Home() {
         >
           <h2 className="text-4xl font-bold mb-8 text-center">Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {["Leasing", "Brand Strategy", "Property Management"].map(
+            {[
+              {name: "Leasing",
+                image: "/tdo/deal.png"
+              }, 
+              {
+                name: "Brand Strategy", 
+                image: "/tdo/strategi.png"
+              },
+              {
+                name: "Property Management",
+                image: "/tdo/management.png"
+              }
+              ].map(
               (service, i) => (
                 <Card key={i} className="rounded-2xl shadow-md">
                   <CardContent className="p-6 text-center">
