@@ -141,7 +141,12 @@ export default function Home() {
               (service, i) => (
                 <Card key={i} className="rounded-2xl shadow-md">
                   <CardContent className="p-6 text-center">
-                    <div className="h-20 w-20 mx-auto bg-gray-200 rounded-full mb-4" />
+                    <div className="h-20 w-20 mx-auto bg-gray-200 rounded-full mb-4">
+                     <img
+                     src={service.image}
+                     alt={service.name}
+                     className="object-contain w-full h-full"
+                    /></div>
                     <h3 className="text-xl font-semibold mb-2">{service}</h3>
                     <p className="text-gray-600 text-sm">
                       Service description placeholder goes here.
